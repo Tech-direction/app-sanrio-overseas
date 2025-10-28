@@ -1,0 +1,27 @@
+{
+  "name": "sovs-checkout-validation",
+  "version": "1.0.0",
+  "description": "Checkout validation app for Sanrio Overseas",
+  "scripts": {
+    "dev": "shopify app dev",
+    "build": "shopify app build",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/cli": "^3.84.1",
+    "@shopify/shopify_function": "~2.0.0",
+    "@shopify/shopify-app-remix": "^2.0.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "shopify",
+    "checkout",
+    "validation"
+  ],
+  "author": "Sanrio Overseas",
+  "license": "MIT"
+}

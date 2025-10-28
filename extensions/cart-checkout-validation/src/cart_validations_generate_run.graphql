@@ -1,0 +1,16 @@
+query RunInput {
+  cart {
+    lines {
+      quantity
+      merchandise {
+        ... on ProductVariant {
+          sku
+        }
+      }
+      attribute {
+        key
+        value
+      }
+    }
+  }
+}
