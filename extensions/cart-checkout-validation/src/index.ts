@@ -1,3 +1,5 @@
+export * from "./cart_validations_generate_run";
+
 import {
   RunInput,
   FunctionRunResult,
@@ -62,3 +64,5 @@ export function run(input: RunInput): FunctionRunResult {
   console.log("=== Validation Complete ===");
   return { errors: [] };
 }
+
+export const checkoutValidationsGenerateRun = run;

@@ -1,4 +1,4 @@
-api_version = "2025-07"
+api_version = "2025-10"
 
 [[extensions]]
 name = "t:name"
@@ -8,9 +8,10 @@ uid = "9beb9559-a34a-eca2-aa94-2cf3baa77d52afcba76e"
 description = "t:description"
 
   [[extensions.targeting]]
-  target = "checkout.validations.generate.run"
+  target = "cart.validations.generate.run"
   input_query = "src/cart_validations_generate_run.graphql"
   export = "checkout-validations-generate-run"
+  api_type = "checkout_validation"
 
   [extensions.build]
   command = ""
